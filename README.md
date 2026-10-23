@@ -75,9 +75,7 @@ Hasil untuk data `[78, 55, 90, 67, 60, 82, 45, 71, 88, 59]`: total 695, rata-rat
 
 ## Refleksi
 
-Satu hal yang saya pahami: indeks list dimulai dari 0, dan pada slicing `nilai[1:4]` batas akhir (indeks 4) tidak ikut diambil. Satu kesalahan yang perlu dihindari: menghitung rata-rata dari list kosong menyebabkan `ZeroDivisionError`, sehingga fungsi `rata_rata` memeriksa `len(data) == 0` terlebih dahulu.
-
-> Catatan: silakan ubah refleksi di atas dengan kata-kata Anda sendiri sesuai pengalaman saat menjalankan program.
+indeks list dimulai dari 0, dan pada slicing `nilai[1:4]` batas akhir (indeks 4) tidak ikut diambil. Satu kesalahan yang perlu dihindari: menghitung rata-rata dari list kosong menyebabkan `ZeroDivisionError`, sehingga fungsi `rata_rata` memeriksa `len(data) == 0` terlebih dahulu.
 
 ## Sumber dan Bantuan
 
